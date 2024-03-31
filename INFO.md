@@ -1,0 +1,1 @@
+* g++ array.cpp -o array 
