@@ -2,15 +2,13 @@
 using namespace std;
 
 
-void myfristFunction(){
-    int age;
-    cout <<"Hey what is your age: ";
-    cin >> age;
+void myfristFunction(int pgae){
+    int age = pgae;
     cout << "Your age is " << age;
 
 }
 
 int main(){
-    myfristFunction();
+    myfristFunction(12);
     return 0;
 }
